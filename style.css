@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+  background-color: darkslategray;
+
+}
 /*nav bar*/
 nav{
     display: flex;
@@ -44,7 +48,6 @@ nav ul li a:hover{
 .about {
     width: 100%;
     padding: 100px 0px;
-    background-color: darkslategray;
   }
   .about img {
     height: auto;
@@ -91,4 +94,9 @@ nav ul li a:hover{
   }
   
   /*footer*/
+  .social-icon{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
   
